@@ -1,0 +1,67 @@
+/* The AMDIS styles */
+
+$tca-logo-blue: #29a0f1;
+$tca-navbar: white;
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-color: #eee;
+    margin-bottom: 60px;
+}
+
+a {
+    color: #444444 !important;
+}
+// .navbar {
+//     background-color: $tca-logo-blue !important;
+// }
+.navbar-scroll {
+    background-color: rgba(238, 244, 247, 0.779);
+    transition: background-color 0.5s;
+}
+.navbar-tca {
+    background-color: $tca-navbar !important;
+}
+
+
+/* ============================================================
+    MEDIA QUERIES
+  ============================================================ */
+
+@media(max-width: 768px) {
+    .navbar {
+        background-color: $tca-navbar !important;
+    }
+}
+
+@media all and (min-width: 600px) {
+    section.module h2 {
+        font-size: 42px;
+    }
+    section.module p {
+        font-size: 20px;
+    }
+    section.module.parallax {
+        padding: 300px 0;
+    }
+    section.module.parallax h1 {
+        font-size: 96px;
+    }
+}
+
+@media all and (min-width: 960px) {
+    section.module.parallax h1 {
+        font-size: 160px;
+    }
+}
+
+@media(max-width: 768px) {
+    .col-md-4 {
+        text-align: center;
+        line-height: 30px;
+    }
+}
