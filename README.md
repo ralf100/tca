@@ -1,27 +1,16 @@
-# Tca
+# Website with angular 6.0
+
+This is the code for my dad's website. I was debating but at the end I figured there is no downside to having the code in a public repo.
+I hope this repo is some use to others who consider building a (more or less) static website with bootstrap 5 and angular, which I find kind of cool, easy to deploy (we are running on 1and1 and small in code (all js + index.html)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.3.
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Run `ng build --prod` to build the project, create a dist directory and ftp the tca )in my case) to the server - done!.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Credentials
 
-## Running end-to-end tests
+All pictures are from pixabay.com with propper CC license
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
